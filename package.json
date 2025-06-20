@@ -2,16 +2,17 @@
   "name": "var-extension",
   "displayName": "Variable Documentation Extension",
   "description": "Shows variable documentation from JSON file on hover with workspace usage information",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "publisher": "seungdaekim",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/var-extension.git"
+    "url": "https://github.com/kimseungdae/VarExtention"
   },
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
+    "Programming Languages",
     "Other"
   ],
   "keywords": [
@@ -24,7 +25,9 @@
   "activationEvents": [
     "onLanguage:typescript",
     "onLanguage:javascript",
-    "onLanguage:vue"
+    "onLanguage:vue",
+    "onLanguage:react",
+    "onLanguage:python"
   ],
   "main": "./out/extension.js",
   "contributes": {
